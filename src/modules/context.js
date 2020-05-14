@@ -25,7 +25,6 @@ export default function CounterComponent() {
   return (
     <Counter.Provider value={counter}>
       <CounterDisplay />
-      <CounterDisplay />
     </Counter.Provider>
   )
 }
